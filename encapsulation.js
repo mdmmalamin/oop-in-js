@@ -1,4 +1,4 @@
-class user {
+class User {
   #patientName
   #email
   #phone
@@ -33,6 +33,6 @@ class user {
   }
 }
 
-const amin = new user ('Amin', 'amin@gmail.com', '+8801730553105', 'Mar 2, 2024', 'Mar 17, 2024', '10:00 AM - 10:30 AM', 'Teeth Cleaning', 89);
+const amin = new User ('Amin', 'amin@gmail.com', '+8801730553105', 'Mar 2, 2024', 'Mar 17, 2024', '10:00 AM - 10:30 AM', 'Teeth Cleaning', 89);
 
 console.log(amin.appointmentInvoice());
